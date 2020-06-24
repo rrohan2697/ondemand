@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.204" height="24.2" viewBox="0 0 24.204 24.2">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1e73c9"/>
+      <stop offset="0.192" stop-color="#0082c8"/>
+      <stop offset="0.818" stop-color="#0082c8"/>
+      <stop offset="1" stop-color="#1e73c9"/>
+    </linearGradient>
+  </defs>
+  <g id="plumber" transform="translate(0.104 0.1)">
+    <path id="Shape" d="M21.2,8.6H9.2V5.4a1.2,1.2,0,0,1,1.2-1.2h8.4a1.607,1.607,0,0,0,1.16-.5,1.588,1.588,0,0,0,.44-1.187A1.636,1.636,0,0,0,18.732,1H4A2.8,2.8,0,0,0,1.2,3.8V22.7a1.2,1.2,0,0,0-.579.557L.042,24.42A.4.4,0,0,0,.4,25H10a.4.4,0,0,0,.358-.579l-.579-1.158A1.2,1.2,0,0,0,9.2,22.7V13.4H18v.8a.8.8,0,0,0,.8.8h4a.8.8,0,0,0,.8-.8v-.911A.8.8,0,0,0,24,12.6V11.4A2.8,2.8,0,0,0,21.2,8.6ZM2,8.2H8.4V22.6H2ZM2,3.8a2,2,0,0,1,2-2H18.732a.848.848,0,0,1,.868.756.8.8,0,0,1-.8.844H10.4a2,2,0,0,0-2,2v2H2ZM1.047,24.2l.29-.579a.4.4,0,0,1,.358-.221H8.705a.4.4,0,0,1,.358.221l.29.579ZM22.8,14.2h-4v-.8h4Zm.4-1.6H9.2V9.4h12a2,2,0,0,1,2,2Z" transform="translate(0 -0.999)" stroke="#1e73c9" stroke-width="0.2" fill="url(#linear-gradient)"/>
+    <path id="Shape-2" data-name="Shape" d="M7.4,21a.4.4,0,0,0-.4.4v.8a.4.4,0,0,0,.8,0v-.8A.4.4,0,0,0,7.4,21Z" transform="translate(-4.209 -12.998)" fill="#ffcd01" stroke="#ffcd01" stroke-width="0.2"/>
+    <path id="Shape-3" data-name="Shape" d="M7.4,27a.4.4,0,0,0-.4.4v5.979a.4.4,0,0,0,.8,0V27.4A.4.4,0,0,0,7.4,27Z" transform="translate(-4.209 -16.586)" fill="#ffcd01" stroke="#ffcd01" stroke-width="0.2"/>
+    <path id="Shape-4" data-name="Shape" d="M46.907,39.117C46.79,39.236,44,42.053,44,44.581a3.189,3.189,0,0,0,6.378,0c0-2.528-2.788-5.345-2.907-5.464A.4.4,0,0,0,46.907,39.117Zm.282,7.856A2.394,2.394,0,0,1,44.8,44.581c0-1.763,1.7-3.835,2.392-4.6.687.764,2.392,2.835,2.392,4.6A2.394,2.394,0,0,1,47.189,46.972Z" transform="translate(-26.378 -23.77)" fill="#ffcd01" stroke="#ffcd01" stroke-width="0.2"/>
+  </g>
+</svg>

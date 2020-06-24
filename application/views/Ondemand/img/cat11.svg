@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.81" height="24.579" viewBox="0 0 24.81 24.579">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1e73c9"/>
+      <stop offset="0.251" stop-color="#0082c8"/>
+      <stop offset="0.773" stop-color="#0082c8"/>
+      <stop offset="1" stop-color="#1e73c9"/>
+    </linearGradient>
+  </defs>
+  <g id="Home_renovation" data-name="Home renovation" transform="translate(-37.595 -627.671)">
+    <path id="house" d="M21.176,2.618H16.963V4.733L12,.5,0,10.736l2.824,2.027V23.094H.015V24.5h23.97V23.094H21.176V12.763L24,10.736,21.176,8.327ZM18.367,4.024h1.4v3.1l-1.4-1.2ZM12.7,23.094H11.3c-.048-1.705.167-2.756.7-3.33C12.18,19.309,12.778,20.359,12.7,23.094Zm1.4,0c1.7-4.206-5.912-4.206-4.214,0H4.228V12.725L12,6.052l7.772,6.673V23.094H14.107Zm6.406-11.585L12,4.2,3.487,11.509,2.277,10.64,12,2.347l9.723,8.293Zm0,0" transform="translate(38 627.5)" stroke="#fff" stroke-width="0.5" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_1698" data-name="Rectangle 1698" width="6" height="4" transform="translate(47 646.6)" fill="#fff"/>
+    <path id="house-2" data-name="house" d="M8.561,15.972h6.877a3.718,3.718,0,0,1-2.736,2.76v4.362H11.3V18.732A3.717,3.717,0,0,1,8.561,15.972Zm1.332-1.405H8.561a3.517,3.517,0,0,1,1.332-2.09Zm4.214,0v-2.09a3.517,3.517,0,0,1,1.332,2.09Zm0,8.528V19.7a4.919,4.919,0,0,0,2.809-4.427c0-3.984-4.131-4.9-4.213-4.955v4.252H11.3V10.315c-.163.112-4.214.9-4.214,4.955A4.92,4.92,0,0,0,9.893,19.7v3.4h4.214Z" transform="translate(38 627.5)" fill="#ffcd01"/>
+  </g>
+</svg>

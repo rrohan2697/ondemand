@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.2" height="14.2" viewBox="0 0 14.2 14.2">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#17354e;stroke:#707070;stroke-width:.2px}
+        </style>
+    </defs>
+    <g id="prefix__calendar-3" transform="translate(.1 .1)">
+        <path id="prefix__Path_20637" d="M12.4 55.5H1.6A1.606 1.606 0 010 53.9v-9.628a1.605 1.605 0 011.6-1.6h10.8a1.605 1.605 0 011.6 1.6V53.9a1.606 1.606 0 01-1.6 1.6zM1.6 43.543a.73.73 0 00-.729.729V53.9a.73.73 0 00.729.729h10.8a.73.73 0 00.729-.729v-9.628a.73.73 0 00-.729-.729zm0 0" class="prefix__cls-1" data-name="Path 20637" transform="translate(0 -41.501)"/>
+        <path id="prefix__Path_20638" d="M13.563 171.543H.438a.437.437 0 110-.875h13.125a.437.437 0 110 .875zm0 0" class="prefix__cls-1" data-name="Path 20638" transform="translate(0 -166.001)"/>
+        <path id="prefix__Path_20639" d="M107.105 3.5a.438.438 0 01-.437-.437V.438a.437.437 0 11.875 0v2.625a.438.438 0 01-.438.437zm0 0" class="prefix__cls-1" data-name="Path 20639" transform="translate(-103.751)"/>
+        <path id="prefix__Path_20640" d="M373.77 3.5a.438.438 0 01-.437-.437V.438a.438.438 0 11.875 0v2.625a.438.438 0 01-.438.437zm0 0" class="prefix__cls-1" data-name="Path 20640" transform="translate(-363.124)"/>
+    </g>
+</svg>

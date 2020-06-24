@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.4" height="24.4" viewBox="0 0 13.4 24.4">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1e73c9"/>
+      <stop offset="0.192" stop-color="#0082c8"/>
+      <stop offset="0.818" stop-color="#0082c8"/>
+      <stop offset="1" stop-color="#1e73c9"/>
+    </linearGradient>
+  </defs>
+  <g id="Frige" transform="translate(0.2 0.2)">
+    <g id="Group_52308" data-name="Group 52308" transform="translate(0)">
+      <path id="Path_48801" data-name="Path 48801" d="M159.253,72.837a.446.446,0,0,0,.453-.453V70.453a.453.453,0,0,0-.906,0v1.931A.446.446,0,0,0,159.253,72.837Z" transform="translate(-156.455 -66.552)" fill="#ffcd01" stroke="#ffcd01" stroke-width="0.4"/>
+      <path id="Path_48802" data-name="Path 48802" d="M159.253,189.6a.446.446,0,0,0-.453.453v1.931a.453.453,0,1,0,.906,0v-1.931A.446.446,0,0,0,159.253,189.6Z" transform="translate(-156.455 -180.295)" fill="#ffcd01" stroke="#ffcd01" stroke-width="0.4"/>
+      <path id="Path_48803" data-name="Path 48803" d="M110.4,0V22.39h1.378v.628a.951.951,0,1,0,1.9,0V22.39H120.1v.628a.992.992,0,0,0,.97.982.958.958,0,0,0,.951-.962v-.628H123.4V0Zm2.678,23.038a.349.349,0,1,1-.7,0v-.628h.7Zm8.343,0a.349.349,0,1,1-.7,0v-.628h.7v.628ZM122.8,21.8H111v-.334h11.8ZM111,20.858V8.131h11.8V20.858H111ZM122.8,7.522H111V.609h11.8Z" transform="translate(-110.4)" stroke="#1e73c9" stroke-width="0.4" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

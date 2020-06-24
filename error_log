@@ -1,0 +1,26 @@
+[07-May-2020 08:15:51 UTC] PHP Fatal error:  Cannot redeclare Settings_model::time_slot_byid() in /home/pmi0c98owjp6/public_html/application/models/Settings_model.php on line 140
+[07-May-2020 08:16:26 UTC] PHP Fatal error:  Cannot redeclare Settings_model::do_add_time_slot() in /home/pmi0c98owjp6/public_html/application/models/Settings_model.php on line 141
+[07-May-2020 08:16:32 UTC] PHP Fatal error:  Cannot redeclare Settings_model::do_add_time_slot() in /home/pmi0c98owjp6/public_html/application/models/Settings_model.php on line 141
+[07-May-2020 08:16:55 UTC] PHP Fatal error:  Cannot redeclare Settings_model::do_add_time_slot() in /home/pmi0c98owjp6/public_html/application/models/Settings_model.php on line 141
+[01-Jun-2020 07:53:52 UTC] PHP Notice:  Undefined index: HTTPS in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 07:53:53 UTC] PHP Notice:  Undefined index: HTTPS in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 07:53:56 UTC] PHP Notice:  Undefined index: HTTPS in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 07:53:56 UTC] PHP Notice:  Undefined index: HTTPS in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:23:55 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:23:55 UTC] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:23:56 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:23:56 UTC] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:26:10 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:26:10 UTC] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:26:10 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:26:10 UTC] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:26:13 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:26:13 UTC] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:27:13 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:27:13 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:27:15 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:27:16 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:27:36 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:27:44 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 2
+[01-Jun-2020 10:34:22 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 7
+[01-Jun-2020 10:34:24 UTC] PHP Warning:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' (this will throw an Error in a future version of PHP) in /home/pmi0c98owjp6/public_html/index.php on line 7

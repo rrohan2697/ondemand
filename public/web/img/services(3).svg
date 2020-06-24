@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74.688" height="74.663" viewBox="0 0 74.688 74.663">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1e73c9"/>
+      <stop offset="0.251" stop-color="#0082c8"/>
+      <stop offset="0.773" stop-color="#0082c8"/>
+      <stop offset="1" stop-color="#1e73c9"/>
+    </linearGradient>
+  </defs>
+  <g id="RO_Big" data-name="RO Big" transform="translate(-407.656 -624.713)">
+    <g id="Outline" transform="translate(410 627.876)">
+      <path id="Path_50950" data-name="Path 50950" d="M67.036,17.41A55.23,55.23,0,0,1,37,26.3,55.242,55.242,0,0,1,6.961,17.41L2,22.351A62.242,62.242,0,0,0,37,33.159,62.242,62.242,0,0,0,72,22.351Z" transform="translate(-2 36.841)" stroke="#fff" stroke-width="3" fill="url(#linear-gradient)"/>
+      <path id="Path_50951" data-name="Path 50951" d="M27.3,58.355A20.808,20.808,0,0,0,48.281,37.768c0-10.383-16.386-30.74-18.253-33.025L27.3,1.4,24.573,4.743C22.7,7.028,6.32,27.385,6.32,37.768A20.808,20.808,0,0,0,27.3,58.355Zm0-45.858C33.567,20.7,41.288,32.539,41.288,37.768a13.99,13.99,0,0,1-27.974,0C13.314,32.546,21.034,20.708,27.3,12.5Z" transform="translate(8.238 -1.401)" stroke="#fff" stroke-width="4" fill="url(#linear-gradient)"/>
+      <path id="Path_50952" data-name="Path 50952" d="M24.191,12H17.716a5.4,5.4,0,0,1-5.4,5.4v6.475A11.884,11.884,0,0,0,24.191,12Z" transform="translate(23.253 24.442)" stroke="#fff" stroke-width="4" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Plus" d="M11.026,21.543a2.466,2.466,0,0,1-.726-1.755V14.971H5.482a2.481,2.481,0,1,1,0-4.963H10.3V5.482a2.481,2.481,0,1,1,4.963,0v4.525h4.525a2.481,2.481,0,1,1,0,4.963H15.263v4.817a2.482,2.482,0,0,1-4.236,1.755Zm.27-7.569a.583.583,0,0,1,.171.413v5.4a1.314,1.314,0,1,0,2.627,0v-5.4a.584.584,0,0,1,.584-.584h5.109a1.314,1.314,0,1,0,0-2.627h-5.11a.584.584,0,0,1-.584-.584V5.482a1.314,1.314,0,1,0-2.627,0v5.109a.584.584,0,0,1-.584.584h-5.4a1.314,1.314,0,1,0,0,2.627h5.4a.583.583,0,0,1,.413.171Z" transform="translate(432.177 646.404)" fill="#ffcd01" stroke="#ffcd01" stroke-width="0.2"/>
+  </g>
+</svg>

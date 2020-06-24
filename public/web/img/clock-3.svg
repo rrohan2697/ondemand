@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.178" height="21.178" viewBox="0 0 21.178 21.178">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#17354e;stroke:#17354e;stroke-width:.2px}
+        </style>
+    </defs>
+    <g id="prefix__clock-2" transform="translate(.1 .1)">
+        <path id="prefix__Path_20641" d="M10.489 0a10.489 10.489 0 1 0 10.489 10.489A10.5 10.5 0 0 0 10.489 0zm0 19.667a9.178 9.178 0 1 1 9.178-9.178 9.188 9.188 0 0 1-9.178 9.178z" class="prefix__cls-1" data-name="Path 20641"/>
+        <path id="prefix__Path_20642" d="M209.105 83.118h-1.311v6.827l4.125 4.125.927-.927-3.741-3.743z" class="prefix__cls-1" data-name="Path 20642" transform="translate(-197.961 -79.185)"/>
+    </g>
+</svg>

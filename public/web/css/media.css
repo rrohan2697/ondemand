@@ -1,0 +1,1361 @@
+@media(max-width:1920px){
+.footerAll {
+    margin-top: 15px;
+}
+    .footerAll3 {
+    margin-top: 34px;
+}
+    .footerAll4 {
+    margin-top: 165px;
+}
+}
+@media(max-width:1560px){
+.footerAll {
+    margin-top: 0px;
+}
+        .footerAll2 {
+    margin-top: 0px;
+}
+.footerAll3 {
+    margin-top: 0px;
+}
+.footerAll4 {
+    margin-top: 22px;
+}
+}
+@media(max-width:1367px){
+.footerAll4 {
+    margin-top: 0;
+}
+}
+@media(max-width:1199px){
+
+    /* Home Page Media  Start*/
+
+    .serviceOffered, .recommendedBox
+    {
+        padding-bottom: 60px;
+    }
+    .homeSliders .slick-prev, .homeSliders .slick-next
+    {
+        top: initial;
+        bottom: -60px;
+    }
+    .homeSliders .slick-prev
+    {
+        left: 45%;
+    }
+    .homeSliders .slick-next
+    {
+        right: 45%;
+    }
+    .bannerBox .searchBox {
+        padding: 0 50px;
+    }
+    .getappInner {
+        padding: 50px 50px;
+    }
+
+    /* Home Page Media  End*/
+
+
+
+    /*jyoti service media*/
+    .culture_content .sprit h3{
+        font-size: 20px;
+    }
+    .culture_content .sprit{
+        margin-right: 37px;
+    }
+    /*jyoti review media*/
+    .rvw_box{
+        margin-right: 55px;
+    }
+    /*jyoti Ow 36 css*/
+    .faq_content .fqa_ryt{
+        margin-left: 41px;
+        max-width: 71%;
+        flex:0 0 71%;
+    }
+    .tab-content span{
+        font-size: 16px;
+        line-height: 23px;  
+    }
+    button.accordion a i{
+        font-size: 20px;
+    }
+    button.accordion:after{
+        width: 645px;
+    }
+    /*jyoti ow_40 media*/
+    .book_lftt ul.booking li a {
+    padding: 19px 15px;
+    }
+    .booking_cntr {
+    padding-left: 75px;
+    }
+    .booking_status{
+        padding-left: 75px;
+    }
+    #profile .booking_cntr {
+    padding-left: 65px;
+    }
+    #profile .booking_status.rebook {
+        padding-left: 20px;
+    }
+    .booking_status.rebook .bkng_sts.reschued{
+        padding:9px 20px;
+        }
+/* jyoti review banner media*/
+.fan_list{
+    padding-right: 80px;
+}
+/* ow 28 media css*/
+.booking_cnfrmation{
+    padding:11px 12px;
+}
+.emsg_ryt{
+    padding-left: 0px;
+}
+.booking_schedule{
+    margin-top: 25px;
+}
+.cnfrmbook_head h3{
+    padding:13px 12px;
+}
+.priceee_service {
+    padding: 0px 12px;
+}
+/* ow_41 media*/
+.prvdr_ryt{
+    width: 70%;
+}
+.prvdr_lft{
+    width: 30%;
+}
+/*    deepanshu code start new */
+    .enterCvv .inputForm {
+    width: 25%;
+}
+    .commonSlides.commonSlides2 .slick-prev {
+    left: -20px;
+}
+    .commonSlides.commonSlides2 .slick-next {
+    right: -20px;
+}
+    h2.mainHeading {
+    font-size: 40px;
+    line-height: 45px;
+}
+p.headingSize {
+    font-size: 16px;
+}
+.bookNowbox .bookNow{
+    padding: 20px 100px;
+}
+    .bankDetail.bankDetail2 ul li:nth-child(2) {
+    font-size: 15px;
+}
+    .selectAddress li.addrSection{
+        font-size: 16px;
+    }
+    .price_dscp .booking_box{
+    overflow-x: scroll;
+}
+    .notificationBox .notoficInner {
+    margin-top: 10px;
+    max-height: 345px;
+    overflow-y: scroll;
+}
+/*    deepanshu code end*/
+}
+@media(max-width:991px){
+
+   /* Home Page Start*/
+   .container {
+    max-width: 100%;
+    padding: 0 30px;
+}
+.nav-item {
+    margin-right: 25px;
+}
+.nav-link {
+    font-size: 16px;
+}
+.bannerBox .searchBox {
+    padding: 0px;
+}
+.servicesSlider .serviceSlide .serviceImages
+{
+    height: 60px;
+    width: 60px;
+}
+.getappInner .col-sm-4, 
+.getappInner .col-sm-8
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.getappLeft
+{
+    text-align: center;
+}
+.homeSliders.slick-prev {
+    left: 43%;
+}
+.homeSliders .slick-next {
+    right: 43%;
+}
+ /* Home Page End*/
+
+
+
+/*jyoti service media*/
+.srvcc_lft h2 {
+    font-size: 25px;
+    padding-bottom: 12px;
+}
+.srvc_ryt{
+    padding-left: 25px;
+}
+.srvcc_lft p{
+    line-height: 22px;
+    padding-bottom: 15px;
+}
+.culture_content .sprit:nth-child(even){
+    margin-right: 0px;
+}
+.culture_content{
+    width: 100%;
+    display: inline-block;
+}
+.culture_content .sprit {
+    margin-right: 33px;
+    max-width: 45%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.sprit h3:after{
+    width: 28%;
+}
+.sprit.envr h3:after {
+    width: 49%;
+}
+.sprit.inspir h3:after {
+    width: 43%;
+}
+.culture_content{
+    padding:41px 0px 20px 0px;
+}
+.culture_sec{
+    padding: 25px 0px;
+}
+/*jyoti review css*/
+.rvw_box {
+    margin-right: 42px;
+}
+.clnt_nm{
+    font-size: 16px;
+}
+.rat_num {
+    font-size: 18px;
+} 
+/*jyoti Ow36 media*/
+.tab-content h3{
+    padding-bottom: 15px;
+}
+.faq_content .fqa_ryt {
+    margin-left: 30px;
+}   
+.tab-content span{
+    text-align: left;
+}
+button.accordion:after{
+    display: none;
+}
+.tab-content span{
+    border-bottom:2px solid #eee;
+}
+/*jyoti ow_40 media*/
+.book_lftt ul.booking li a {
+    padding: 19px 0px;
+    font-size: 16px!important;
+    text-align: center;
+}
+/* jyoti review banner media */
+.fan_list{
+    float: initial;
+    padding-right: 0;
+    margin-top: 0px;
+}
+.fan_services{
+    float: initial;
+    display: block;
+}
+
+/* ow_28 media*/
+.download_booking a{
+    padding:9px 30px;
+}
+span.ceilling_txt{
+font-size: 16px;
+}
+.schdl_ryt{
+    font-size: 18px;
+}
+/*ow_41 media*/
+.prvdr_lft{
+    width: 35%;
+}
+.prvdr_ryt {
+    width: 65%;
+}
+.download_booking{
+    padding-top: 23px;
+}
+.provider_details .ceilling_txt{
+    font-size: 18px;
+}
+    
+/*    deepanshu media start new*/
+    .bankDetail ul li {
+    font-size: 16px;
+    line-height: 18px;
+}
+    .radio input[type="radio"] + .radio-label:before{
+        margin-right: 8px;
+    }
+    .bankDetail ul li:nth-child(2) {
+    font-size: 15px;
+    line-height: 17px;
+    padding: 3px 0px;
+}
+    .paymentAll .col-sm-8{
+        flex: 0 0 100%;
+    max-width: 100%;
+    }
+        .paymentAll .col-sm-4{
+        flex: 0 0 100%;
+    max-width: 100%;
+            margin-top: 20px;
+    }
+    h2.mainHeading {
+    font-size: 40px;
+}
+    .categoryBanner .categoryTop {
+    bottom: 40px;
+}
+    .MycartBox  .cartReview .cartReviewMid {
+    padding: 25px 40px 25px 20px;
+    }
+    .MycartBox .categoriesInner .productDetails {
+    padding-right: 30px;
+    }
+    .bookingSchedule .priceInfo td {
+    font-size: 17px;
+    }
+    .producttabsList .col-sm-6 {
+    max-width: 100%;
+    flex:100%;
+    margin-bottom: 10px;
+}
+    .recommendedSlider.slick-initialized .slick-slide {
+    min-height: 298px;
+}
+    .producttabsLists.sectionPadding .col-sm-7{
+          flex: 0 0 60.333333%;
+    max-width: 60.333333%;  
+    }
+        .producttabsLists.sectionPadding .col-sm-5{
+          flex: 0 0 39.333333%;
+    max-width: 39.333333%;  
+    }
+    .selectAddress .addrInner li:last-child a {
+
+    padding: 9px 40px;
+}
+    .priceee_cont {
+    padding: 20px 20px 0px 0px;
+}
+    .booking_box{
+        overflow-x: auto;
+    }
+    .fqa_ryt.booking_ryt .tab-content a.reshudBtn{
+        padding-right: 15px;
+    }
+    /*    deepanshu media end new*/
+}
+@media(max-width:767px){ 
+    
+    /* Sidenav Start */
+    .header
+    {
+        padding: 15px 0;
+    }
+    .topBoxs {
+        margin-top: 85px;
+    }
+    .navbar-expand-md .navbar-toggler {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    .navbar-expand-md .navbar-collapse {
+        position: fixed;
+        width: 250px;
+        top: 0;
+        left: -250px;
+        background: var(--colorWhite);
+        height: 100%;
+        transition: all 0.3s ease;
+        display: initial !important;
+        margin-top: 105px;
+        padding: 20px 12px 0px 12px;
+        z-index: 9;
+        box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5);
+    }    
+    .nav-link:hover, .nav-link:focus
+    {
+        border-bottom: none;
+    }
+    .navbar-expand-md .navbar-nav {
+        flex-direction: column;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        margin-bottom: 5px;
+    }
+    .headerBox 
+    {
+        display: block !important;
+        float: left !important;
+    }
+    .navbar-expand-md .navbar-nav .nav-link
+    {
+        padding: 0;
+    }
+    .nav-item
+    {
+        margin-bottom: 20px;
+    }
+    .navbar-expand-md .navbar-nav .dropdown-menu
+    {
+        position: relative;
+        background: transparent;
+        border: none;
+        padding-bottom: 0;
+    }
+    .navbar-expand-md .navbar-nav .dropdown-menu.show
+    {
+        transition: all 0.3s ease;
+    }
+    
+    .dropdown-item
+    {
+        color: #fff;
+    }
+    .userBox {
+        margin-left: 0;
+        position: relative;
+        margin-right: 0px;
+    }
+    .nav-item
+    {
+        margin-right: 0;
+    }
+    .headerBox
+    {
+        width: 100%;
+    }
+    .afterLogin a.loginAfter
+    {
+        padding: 0;
+        width: 100%;
+        border: none;
+        background: #fff;
+        padding-right: 30px;
+    }
+    .afterLogin .dropIcon
+    {
+        top: 5px;
+    }
+    .notificBox.topNotification
+    {
+        display: none;
+    }
+    .dropBox, .categoryBox .dropBox
+    {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        position: initial;
+        padding: 0;
+        margin-left: 15px;
+        margin-top: 15px;
+        float: left;
+    }
+    .dropBox ul li a
+    {
+        font-size: 15px;
+    }
+    .categoryBox .dropBox
+    {
+        max-height: 320px;
+        overflow-y: scroll;
+    }
+    /* Sidenav End */
+
+    /* Home Page Start */
+
+.topSpace {
+    margin-top: 105px;
+}
+
+    .getappInner {
+        padding: 40px 30px;
+    }
+    h2.heading
+    {
+        font-size: 27px;
+        line-height: 33px;
+    }
+    h3.headingSize {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    p.headingSize {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .getappRight h3 {
+        margin-bottom: 26px;
+    }
+    .getappRight button
+    {
+        min-width: 140px;
+        margin-left: 20px;
+    }
+    .searchMain
+    {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+    .searchForm .sectctCity {
+        width: 100%;
+        margin-right: 0;
+    }
+    .formSearch button
+    {
+        margin-left: 20px;
+    }
+    .getApp {
+        padding: 30px 0 50px;
+    }
+    h2.subHeading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    /* Home Page End */
+
+
+
+    /*jyoti sevice css*/
+    
+    .srvc_ryt{
+        margin-top: 20px;
+    }
+    .sprit h3:after {
+    width: 111px;
+    }
+    .sprit.envr h3:after {
+    width: 201px;
+    }
+    .sprit.inspir h3:after {
+    width: 180px;
+    }
+    /*jyoti review css*/
+    .rvw_box {
+    margin-right: 0;
+    max-width: 100%;
+    }
+    /*jyoti ow_36 css*/
+    .faq_lft{
+        max-width: 100%;
+    }
+    .faq_content .fqa_ryt {
+    margin-left: 0;
+    max-width: 100%;
+    flex:100%;
+    }
+    /*ow_40 jyoti media */
+    .fqa_ryt.booking_ryt {
+    margin-left: 0;
+    }
+    .book_lftt ul.booking li a{
+        text-align: left;
+        padding-left: 15px;
+    }
+    /* jyoti review banner media*/
+    .fandescp_left h3{
+        font-size: 21px;
+    }
+    /*ow_w8 media*/
+    .priceee_left{
+        margin-bottom: 10px;
+    }
+    .emsg_lft{
+        display: block;
+        float: initial;
+    }
+    .download_booking{
+        padding-top: 40px;
+    }
+    /*ow_41 media*/
+    .priceee_ryt{
+        padding: 0;
+    }
+    .price_box .col-md-7{
+        padding: 0;
+    }
+    .cancel_booking{
+        padding-top: 11px;
+    }
+/*    deepanshu code start new*/
+        .profileRight {
+    width: 100%;
+    padding-top: 60px;
+}
+   .profileLeft {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+    .profileAll {
+    display: block !important;
+}
+    .formBtn {
+    font-size: 16px;
+}
+    .formBtn {
+    font-size: 16px;
+}
+    .profileBtn .firstOn {
+    margin-left: 15px;
+    padding: 10px 52px;
+}
+    .cancelBtn button:first-child {
+    padding: 10px 44px;
+}
+    .inputForm {
+    font-size: 16px;
+    padding: 10px 14px;
+}
+    .cancelBtn button {
+    padding: 12px 34px;
+}
+        .gogleBtn button {
+    padding: 10px 20px;
+}
+.gogleBtn button:nth-child(2) {
+    padding: 10px 25px;
+}
+    .uesEmailBtn button:first-child {
+    padding: 10px 49px;
+}
+    .uesEmailBtn button {
+    padding: 10px 36px;
+}
+    .bookingModal .modal-dialog{
+        width: auto;
+    }
+    .enterCvv .inputForm {
+    width: 35%;
+}
+    .cvvBtn button {
+    padding: 10px 32px;
+}
+    .creditInput .form-group.payBtn22 button {
+    padding: 10px 24px;
+}
+       .bankDetail.bankDetail2 ul li:nth-child(2){
+        display: none;
+    }
+    .categoryInnernew.categoryInner{
+        padding-bottom: 30px;
+    }
+    .commonSlides.commonSlides2 .slick-prev {
+    left: 39%;
+    top: 130%;
+}
+    .commonSlides.commonSlides2 .slick-next {
+    right: 39%;
+    top: 130%;
+}
+    h2.mainHeading {
+    font-size: 35px;
+}
+     .MycartBox .producttabsLists  .col-sm-7{
+    max-width: 100%;
+    flex:100%;
+    margin-bottom: 20px;
+}
+    .MycartBox .producttabsLists  .col-sm-5{
+    max-width: 100%;
+    flex:100%;
+}
+    h2.mainHeading {
+    font-size: 35px;
+    line-height: 40px;
+}
+    ul.myTab li {
+    padding-bottom: 10px;
+    display: inline-block;
+}
+    .book_lftt ul.booking li a {
+    padding: 15px 12px;
+}
+    .priceee_service {
+    padding: 0px 12px 12px;
+}
+    .faq_sec .nav.nav-tabs {
+    overflow-x: auto;
+    min-width: 1382px;
+}
+    .nav.nav-tabs.booking.myTab{
+        min-width: auto;
+    }
+    .allTabs{
+        overflow-x: scroll;
+    }
+    .faq_lft.tabs h4 {
+    padding: 20px 15px;
+}
+    #profile .booking_status.rebook {
+    padding-left: 65px;
+}
+    .abcRioButtonLightBlue{
+        padding: 6px 0px;
+    }
+    .searchMain{
+        margin-top: 10px;
+    }
+/*    deepanshu code start new*/
+}
+@media(max-width:560px){
+
+/* Home Page Start */
+
+.formSearch
+{
+    display: block;
+    text-align: center;
+}
+.searchForm input
+{
+    padding: 10px 15px 10px 40px;
+}
+.formSearch button
+{
+    margin-left: 0;
+    margin-top: 15px;
+}
+.getappLink .getLink
+{
+    display: block;
+    text-align: center;
+    float: left;
+}
+.getappRight button
+{
+    margin-left: 0;
+    margin-top: 15px;
+    float: unset;
+    padding: 10px 0;
+}
+.getappRight .numberOptn button
+{
+    margin-top: 9px;
+}
+.storeLink a
+{
+    width: 139px;
+    float: unset;
+}
+.storeLink
+{
+    margin: 32px auto 0;
+    text-align: center;
+}
+h2.heading {
+    font-size: 25px;
+    line-height: 30px;
+}
+h3.headingSize {
+    font-size: 16px;
+    line-height: 19px;
+}
+p.headingSize {
+    font-size: 15px;
+    line-height: 20px;
+}
+.footerSocial, .footerMenu
+{
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.footerSocial
+{
+    margin: 10px 0;
+}
+.footerBtm ul li
+{
+    float: unset;
+}
+.getappInner {
+    padding: 40px 20px;
+}
+.getappRight h3 {
+    margin-bottom: 20px;
+}
+h2.headingSize {
+    font-size: 20px;
+    line-height: 26px;
+}
+.homeSliders .slick-next
+{
+    right: 39%;
+}
+.homeSliders .slick-prev {
+    left: 39%;
+}
+.bannerSlider {
+    height: 60vh;
+}
+.notificationBox
+{
+    width: 350px;
+}
+.notificationBox .notificImage {
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+    margin-right: 10px;
+}
+/* Home Page End */
+
+
+    /*jyoti term css*/
+    .term_content{
+        padding:20px;
+    }
+    /*jyoti service css*/
+    .culture_content .sprit {
+        margin-right: 0;
+        max-width: 100%;
+    }
+    .srvc_ryt {
+    padding-left: 0;
+    height: auto;
+    }
+    /*jyoti review css*/
+    .rating p{
+        padding-right: 10.5px;
+    }
+    /* jyoti review banner media */
+    .fandescp_ryt {
+    float: left;
+    margin-top: 10px;
+}
+.fandescp_ryt .addProduct {
+    margin-bottom: 5.4px;
+}
+ul.fan_services li {
+    font-size: 16px;
+    }
+    /* Ow_28 media css*/
+    .emsg_cont{
+        font-size: 18px;
+    }
+    .ceilling_img{
+        padding-right: 4px;
+    }
+    span.ceilling_txt {
+    font-size: 15px;
+}
+    .provider_details .ceilling_txt{
+        font-size: 16px;
+    }
+    
+/*    deepanshu code stat new*/
+       .profileBtn{
+        float: left;
+    }
+    .cancelBtn button:first-child {
+    padding: 10px 34px;
+        margin-right: 10px;
+}
+    .profileBtn .firstOn {
+    margin-left: 15px;
+    padding: 10px 43px;
+}
+.cancelBtn button {
+    padding: 12px 24px;
+}
+    .otpInner p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px 0px 30px;
+}
+    .ressendOtp p{
+        padding-bottom: 0;
+        font-size: 13px;
+    }
+    .oR p::before,.oR p::after {
+    width: 155px;
+}
+.timeAll button {
+    min-width: 80px;
+    padding: 4px 0px 2px;
+    font-size: 15px;
+}
+    .referPromo{
+        padding: 0;
+    }
+    .bankDetail ul li {
+    font-size: 15px;
+}
+    .radioInner {
+    display: block;
+    padding: 15px;
+}
+.bankDetail ul li:nth-child(2) {
+    font-size: 14px;
+    padding: 6px 0px 2px;
+}
+    .bankDetail ul li:last-child {
+    font-size: 13px;
+}
+    .remomeAll{
+          padding-left: 23px;
+    padding-top: 5px;      
+    }
+.cvvBtn button {
+    padding: 10px 15px;
+}
+.enterCvv .inputForm {
+    width: 42%;
+}
+    .cvvBtn {
+    margin-left: 8px;
+}
+    .referBtn button{
+        padding: 10px 25px;
+    }
+    .enterCvv {
+    padding: 10px 0px 0px 24px;
+}
+    .referBtn {
+    margin-left: 8px;
+}
+
+    .creditInput .form-group.expiry {
+        width: 56%;
+}
+    .creditInput .form-group.cvv {
+       width: 41%;
+}
+    .creditInput .form-group.payBtn22 button {
+    padding: 10px 15px;
+}
+    .detailAlll ul li {
+    font-size: 16px;
+}
+    .paymentAll {
+    padding: 30px 0px 45px;
+}
+    .creditInput .form-group {
+    padding-left: 28px;
+    width: 100%;
+}
+        .commonSlides.commonSlides2 .slick-prev {
+    top: 95px;
+}
+    .commonSlides.commonSlides2 .slick-next {
+    top: 95px;
+}
+    .categoryInnernew.categoryInner {
+    padding-bottom: 55px;
+}
+.categoryBanner .categoryTop {
+    bottom: 50px;
+}
+ .MycartBox .cartReview .cartReviewMid {
+    padding: 25px 25px 25px 20px;
+}
+.cartReview .cartReviewBtm .proceedBtn span {
+    padding-left: 42px;
+}
+    .bookNowbox .bookNow {
+    padding: 18px 75px;
+}
+h2.mainHeading {
+    font-size: 30px;
+    line-height: 33px;
+}
+.categoriesInner .addProduct{
+    bottom:18px;
+    top:initial;
+}
+.categoriesInner .productDetails{
+    padding-right: 0px;
+}
+.addressBtn button {
+    padding: 7px 20px;
+
+}
+/*    deepanshu code end new*/
+    .fotLogo{
+       margin: 0 auto;
+        float: unset;
+        display: flex;
+    }
+    .remomeAll a:last-child{
+        margin-left:10px;
+    }
+}
+@media(max-width:414px){
+    /* Home Page Start */
+    .container
+    {
+        padding: 0 15px;
+    }
+    .footerMenu ul li a
+    {
+        font-size: 14px;
+        margin-right: 13px;
+    }
+    .storeLink a {
+        width: 45%;
+    }
+    .getappInner {
+        padding: 30px 20px 20px;
+    }
+    h2.heading {
+        font-size: 23px;
+        line-height: 27px;
+    }
+    h3.headingSize {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .getappRight h3 {
+        margin-bottom: 16px;
+    }
+    p.headingSize {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .servicesSlider .serviceSlide span
+    {
+        font-size: 14px;
+    }
+    .topHeadings
+    {
+        padding-bottom: 30px;
+    }
+    .topHeadings h2.headingSize::before, 
+    .topHeadings h2.headingSize::after
+    {
+        top: inherit;
+        bottom: -3px;
+        left: 0;
+    }
+    .topHeadings h2.headingSize::after
+    {
+        bottom: -8px;
+    }
+    .homeSliders .slick-next
+    {
+        right: 35%;
+    }
+    .homeSliders .slick-prev {
+        left: 35%;
+    }
+    .notificationBox
+    {
+        width: 100%;
+    }
+    .notificationBox .notificImage {
+        height: 35px;
+        width: 35px;
+        min-width: 35px;
+    }
+    .notificationBox .notificBoxs .notificDescription p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    h2.subHeading {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    /* Home Page End */
+
+
+    
+    /*jyoti term css*/
+    .term_content {
+        padding: 15px 0px 15px 15px;
+        }
+        /*jyoti review css*/
+        .clnt_dtls{
+            padding-left: 9px;
+        }
+        .clnt_nm {
+        font-size: 15px;
+        }
+        .rvw_date{
+            font-size: 13px;
+        }
+        .rvw_box{
+            padding:16px 0px 10px 8px;
+        }
+        .reviews h3{
+            font-size: 18px;
+        }
+        /*jyoti ow_36 css*/
+        .tab-content h3{
+            font-size: 19px;
+        }
+        button.accordion a{
+            right: -18px;
+        }
+        /* ow_28 media */
+        span.ceilling_txt{
+            display: block;
+        }
+        .ceilling_prc{
+            margin-bottom: 12px;
+        }
+        .schdl_add{
+            padding-left: 0px;
+        }
+        .cnfrm_no{
+            font-size: 16px;
+        }
+ .download_booking {
+    padding-top: 10px;
+    text-align: center;
+}
+    .ttl_amnt{
+        font-size: 14px;
+        }
+    
+/*    deepanshu code start new*/
+        .profileInner .modal-body {
+    padding: 25px 15px;
+}
+    .cancelBtn button:first-child {
+    margin-right: 15px;
+}
+    .close.closeAll {
+    top: 3%;
+}
+    .cancelModal .modal-body {
+    text-align: center;
+    padding: 25px 15px;
+}
+    .cancelInner p br {
+        display: none;
+}
+    .otpBtn button {
+    padding: 13px 20px;
+    margin: 20px 0px 5px;       
+}
+    .ressendOtp p br{
+        display: none;
+    }
+    .gogleBtn button:nth-child(2) {
+    padding: 10px 23px;
+}
+    .gogleBtn button {
+    padding: 10px;
+}
+
+.gogleBtn button:nth-child(2) {
+    padding: 10px 15px;
+    margin-left: 15px;
+}
+    .otpPassword .modal-body {
+    padding: 20px 15px 25px;
+}
+    .uesEmailBtn button {
+    padding: 10px 26px;
+}
+    .uesEmailBtn button:first-child {
+    padding: 10px 38px;
+}
+    .oR p::before, .oR p::after {
+    width: 115px;
+}
+    .profileHead.profileHead2 h3,.uesEmail h3{
+        font-size: 16px;
+    }
+    .timeAll button:last-child{
+        margin-top: 10px;
+    }
+    .bookingMod h2{
+        font-size: 20px;
+    }
+.bankDetail ul li {
+    font-size: 14px;
+}
+    .creditInput.creditInput2 .form-group {
+    width: 100%;
+}
+    .creditInput.creditInput2 {
+    padding: 10px 10px 10px 35px;
+}
+    .locationBtn a{
+        font-size: 15px;
+    }
+    .saveAs button{
+        padding: 4px 10px;
+    }
+    .saveAs button:nth-child(3) {
+    margin: 0px 5px;
+}
+    .addressBtn button {
+    font-size: 14px;
+    padding: 7px 15px;
+}
+    h2.mainHeading {
+    font-size: 30px;
+}
+    .commonSlides.commonSlides2 .slick-prev{
+        left: 35%;
+    }
+        .commonSlides.commonSlides2 .slick-next{
+        right: 35%;
+    }
+    .MycartBox .cartReview .cartReviewMid {
+    padding: 25px 10px 25px 10px;
+}
+.MycartBox .categoriesInner .productDetails {
+    padding-right: 0px;
+}
+.MycartBox .categoriesInner .productImage{
+    margin-right: 14px;
+    }
+.MycartBox .cartReview .cartReviewBtm{
+    padding: 14px 11px;
+}
+.MycartBox .cartReview .cartReviewBtm .proceedBtn span {
+    padding-left: 20px;
+}
+.MycartBox .cartReview .cartReviewBtm .proceedBtn a{
+    font-size: 15px;
+}
+    .bookNowbox .bookNow {
+    padding: 15px 65px;
+}
+.categoriesInner .addProduct{
+        right: 20px;
+    bottom: 30px;
+    }
+    p.subHeading.viewDetails{
+        font-size: 13px;
+    }
+    .breadcrumb-item+.breadcrumb-item::before{
+        padding-right: 0.2rem;
+        padding-left: 0.2rem;
+    }
+    .categoryBanner .breadcrumb .breadcrumb-item a{
+        font-size: 14px;
+    }
+    .bookNowbox {
+    position: fixed;
+    bottom: 55px;
+    right: 25px;
+    z-index: 99;
+}
+.book_lftt ul.booking li a {
+    padding: 10px 4px;
+}
+    .cancelInner p{
+        font-size: 16px;
+    }
+    .cancelInner h3{
+        font-size: 18px;
+    }
+    .download_booking a {
+    padding: 9px 16px;
+}
+    .selectAddress li.addrSection {
+    font-size: 15px;
+}
+    .creditInput .form-group.expiry {
+    width: 55%;
+}
+    .calenderAll table {
+    width: 100%;
+}
+    .bookingModal.calenderModal .modal-dialog {
+    width: 96%;
+}
+    .calenderAll #calendari {
+    width: 100%;
+    /* box-shadow: 0px 1px 4px rgba(0,0,0,0.4); */
+}
+    .categoryInnernew.categoryInner {
+    padding-bottom: 40px;
+}
+    .abcRioButtonLightBlue{
+        min-width: 124px !important;
+    }
+    .abcRioButtonIcon {
+    padding-left: 12px !important;
+}
+.contactLogo{
+    float: left;
+    position: absolute;
+    left: 28%;
+}
+ul.cantactList li {
+    font-size: 14px;
+}
+.iti__country-list {
+    width: 235px;
+    position: absolute;
+    bottom: 25px;
+    left: 6px;
+}
+.cartReview .categoryProduct {
+    position: relative;
+}
+.dropChange {
+
+    width: 43%;
+
+}
+/*    deepanshu code end new*/
+    }
+
+@media(max-width:362px){
+    .bankDetail {
+    float: left;
+    padding-top: 10px;
+}
+    .remomeAll {
+    padding-left: 0px;
+    padding-top: 5px;
+}
+    .enterCvv {
+    padding: 10px 0px 0px 0px;
+}
+    .bankDetail.bankDetail2 {
+    float: right;
+  padding-top: 0;
+}
+}

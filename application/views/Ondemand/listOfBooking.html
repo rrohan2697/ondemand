@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>On Demand | Booking</title>
+    <!-- Bootstrap -->
+    <link href="img/fav.png" rel="icon" type="icon/image">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <div class="header boxs">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <nav class="navbar navbar-expand-md">
+                    <a class="navbar-brand" href="index.html">On Demand</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav"><span class="navIcon"></span></button>
+                    <div class="navbar-collapse" id="nav">
+                        <div class="headerBox d-flex align-items-center float-right">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Dashboard</a></li>
+                                <li class="nav-item afterLogin categoryBox"><a class="nav-link subMenu" href="javascript:void(0)">Category</a>
+                                    <div class="dropBox">
+                                        <ul>
+                                            <li><a href="category_products.html"><span><img src="img/cat1.svg" class="img-fluid" alt="icon"></span>Electrician</a></li>
+                                            <li><a href="javascript:void(0)"><span><img src="img/cat2.svg" class="img-fluid" alt="icon"></span>Refrigerator Repair</a></li>
+                                            <li><a href="javascript:void(0)"><span><img src="img/cat3.svg" class="img-fluid" alt="icon"></span>Plumber</a></li>
+                                            <li><a href="javascript:void(0)"><span><img src="img/cat4.svg" class="img-fluid" alt="icon"></span>RO Service & Repair</a></li>
+                                            <li><a href="javascript:void(0)"><span><img src="img/cat5.svg" class="img-fluid" alt="icon"></span>Carpenters</a></li>
+                                            <li><a href="javascript:void(0)"><span><img src="img/cat6.svg" class="img-fluid" alt="icon"></span>Other Appliance</a></li>
+                                            <li><a href="javascript:void(0)"><span><img src="img/cat7.svg" class="img-fluid" alt="icon"></span>AC Service & Repair</a></li>
+                                            <li><a href="javascript:void(0)"><span><img src="img/cat8.svg" class="img-fluid" alt="icon"></span>Home Cleaning</a></li>
+                                            <li><a href="javascript:void(0)"><span><img src="img/cat9.svg" class="img-fluid" alt="icon"></span>Routined Maintenance</a></li>
+                                            <li><a href="javascript:void(0)"><span><img src="img/cat10.svg" class="img-fluid" alt="icon"></span>Pest Control</a></li>
+                                            <li><a href="javascript:void(0)"><span><img src="img/cat11.svg" class="img-fluid" alt="icon"></span>Home Renovation</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item"><a class="nav-link active" href="listOfBooking.html">Bookings</a></li>
+                                <li class="loginBtn"><a href="#0">Login/Sign-up</a></li>
+
+                                <!-- After Login profile Button Start -->
+                                <li class="afterLogin userBox">
+                                    <a class="loginAfter subMenu" href="javascript:void(0)"><span class="userImg"><img src="img/recSlider3.png" alt="image" class="img-fluid"></span>Bhuvan Sharma<span class="dropIcon"><i class="fas fa-caret-down"></i></span></a>
+                                    <span class="notificBox topNotification">
+                                        <p>4</p>
+                                    </span>
+                                    <div class="dropBox">
+                                        <ul>
+                                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#profileModal">Profile</a></li>
+                                            <li><a class="notificationsList" href="javascript:void(0)">Notification <span class="notificBox">
+                                                        <p>4</p>
+                                                    </span></a></li>
+                                            <li><a href="javascript:void(0)">Support Chat</a></li>
+                                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#changeModal">Change Passeord</a></li>
+                                            <li><a class="logoutBtn" href="javascript:void(0)">Logout</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <!-- After Login profile Button Start -->
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="notificationBox">
+                    <div class="notificationTop boxs">
+                        <p class="headingSize text-center">Notification</p>
+                    </div>
+                    <div class="notificationInner boxs">
+                        <p class="subHeading">Today</p>
+                        <div class="notoficInner boxs" id="notificScroll">
+
+                            <a href="#0">
+                                <div class="notificBoxs boxs">
+                                    <div class="notificTime boxs">
+                                        <p><span><img src="img/clock.svg" class="img-fluid" alt="icon"></span>3 min</p>
+                                    </div>
+                                    <div class="notificDetail boxs">
+                                        <div class="notificImage">
+                                            <img src="img/homebanner.png" alt="image" class="img-fluid">
+                                        </div>
+                                        <div class="notificDescription">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                                the industry's standard </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#0">
+                                <div class="notificBoxs boxs">
+                                    <div class="notificTime boxs">
+                                        <p><span><img src="img/clock.svg" class="img-fluid" alt="icon"></span>3 min</p>
+                                    </div>
+                                    <div class="notificDetail boxs">
+                                        <div class="notificImage">
+                                            <img src="img/homebanner.png" alt="image" class="img-fluid">
+                                        </div>
+                                        <div class="notificDescription">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                                the industry's standard </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#0">
+                                <div class="notificBoxs boxs">
+                                    <div class="notificTime boxs">
+                                        <p><span><img src="img/clock.svg" class="img-fluid" alt="icon"></span>3 min</p>
+                                    </div>
+                                    <div class="notificDetail boxs">
+                                        <!-- <div class="notificImage">
+                                            <img src="img/homebanner.png" alt="image" class="img-fluid">
+                                        </div> -->
+                                        <div class="notificDescription">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                                the industry's standard </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#0">
+                                <div class="notificBoxs boxs">
+                                    <div class="notificTime boxs">
+                                        <p><span><img src="img/clock.svg" class="img-fluid" alt="icon"></span>3 min</p>
+                                    </div>
+                                    <div class="notificDetail boxs">
+                                        <div class="notificImage">
+                                            <img src="img/homebanner.png" alt="image" class="img-fluid">
+                                        </div>
+                                        <div class="notificDescription">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                                the industry's standard </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- <a href="#0">
+                                <div class="notificBoxs boxs">
+                                    <div class="notificTime boxs">
+                                        <p><span><img src="img/clock.svg" class="img-fluid" alt="icon"></span>3 min</p>
+                                    </div>
+                                    <div class="notificDetail boxs">
+                                        <div class="notificImage">
+                                            <img src="img/homebanner.png" alt="image" class="img-fluid">
+                                        </div>
+                                        <div class="notificDescription">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                                                the industry's standard </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a> -->
+
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <section class="faq_sec topSpace boxs">
+        <div class="container">
+            <div class="row faq_content">
+                <div class="col-md-3 faq_lft book_lftt tabs">
+                    <h4>Bookings</h4>
+                    <ul class="nav nav-tabs booking myTab" id="myTab" role="tablist">
+                        <li>
+                            <a class="nav-link bookactive active" data-toggle="tab" href="#home" role="tab" aria-controls="home">Ongoing Bookings</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">Past Bookings</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-9 fqa_ryt booking_ryt">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home" role="tabpanel">
+                            <h3>The list of Bookings</h3>
+                            <div class="booking_cont">
+                                <a href="bookingOngoing.html">
+                                    <div class="booking_box booking_boxnew">
+
+                                        <div class="booking_lft">
+                                            <div class="booking_img">
+                                                <img src="img/fan.png" class="img-fluid" alt="image">
+
+                                            </div>
+                                            <div class="boking_txt">
+                                                <span class="bkng_id">
+                                                    Booking Id : 15467723277
+                                                </span>
+                                                <span class="bkng_prc">
+                                                    Rs 498
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="booking_cntr">
+                                            <span class="bkng_tym">
+                                                <img src="img/clock-2.svg" class="img-fluid" alt="image">10:00 Am
+                                            </span>
+                                            <span class="bkng_date">
+                                                <img src="img/calendar-3.svg" class="img-fluid" alt="image">24 April 2020
+
+                                            </span>
+                                        </div>
+                                        <div class="booking_status">
+                                            <span class="bkng_sts">
+                                                Status
+                                            </span>
+                                            <span class="booking_dscp">
+                                                Ongoing
+                                            </span>
+
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="booking.html">
+                                    <div class="booking_box booking_boxnew">
+                                        <div class="booking_lft">
+                                            <div class="booking_img">
+                                                <img src="img/fan.png" class="img-fluid" alt="image">
+
+                                            </div>
+                                            <div class="boking_txt">
+                                                <span class="bkng_id">
+                                                    Booking Id : 15467723277
+                                                </span>
+                                                <span class="bkng_prc">
+                                                    Rs 498
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="booking_cntr">
+                                            <span class="bkng_tym">
+                                                <img src="img/clock-2.svg" class="img-fluid" alt="image">10:00 Am
+                                            </span>
+                                            <span class="bkng_date">
+                                                <img src="img/calendar-3.svg" class="img-fluid" alt="image">24 April 2020
+
+                                            </span>
+                                        </div>
+                                        <div class="booking_status">
+                                            <span class="bkng_sts">
+                                                Status
+                                            </span>
+                                            <span class="booking_dscp schedule">
+                                                Schedule
+                                            </span>
+
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="bookingOngoing.html">
+                                    <div class="booking_box booking_boxnew">
+                                        <div class="booking_lft">
+                                            <div class="booking_img">
+                                                <img src="img/fan.png" class="img-fluid" alt="image">
+
+                                            </div>
+                                            <div class="boking_txt">
+                                                <span class="bkng_id">
+                                                    Booking Id : 15467723277
+                                                </span>
+                                                <span class="bkng_prc">
+                                                    Rs 498
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="booking_cntr">
+                                            <span class="bkng_tym">
+                                                <img src="img/clock-2.svg" class="img-fluid" alt="image">10:00 Am
+                                            </span>
+                                            <span class="bkng_date">
+                                                <img src="img/calendar-3.svg" class="img-fluid" alt="image">24 April 2020
+
+                                            </span>
+                                        </div>
+                                        <div class="booking_status">
+                                            <span class="bkng_sts">
+                                                Status
+                                            </span>
+                                            <span class="booking_dscp">
+                                                Ongoing
+                                            </span>
+
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="booking.html">
+                                    <div class="booking_box booking_boxnew">
+                                        <div class="booking_lft">
+                                            <div class="booking_img">
+                                                <img src="img/fan.png" class="img-fluid" alt="image">
+
+                                            </div>
+                                            <div class="boking_txt">
+                                                <span class="bkng_id">
+                                                    Booking Id : 15467723277
+                                                </span>
+                                                <span class="bkng_prc">
+                                                    Rs 498
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="booking_cntr">
+                                            <span class="bkng_tym">
+                                                <img src="img/clock-2.svg" class="img-fluid" alt="image">10:00 Am
+                                            </span>
+                                            <span class="bkng_date">
+                                                <img src="img/calendar-3.svg" class="img-fluid" alt="image">24 April 2020
+
+                                            </span>
+                                        </div>
+                                        <div class="booking_status">
+                                            <span class="bkng_sts">
+                                                Status
+                                            </span>
+                                            <span class="booking_dscp schedule">
+                                                Schedule
+                                            </span>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane" id="profile" role="tabpanel">
+                            <h3>The list of Bookings</h3>
+                            <div class="booking_cont">
+                                <div class="booking_box">
+                                    <div class="booking_lft">
+                                        <div class="booking_img">
+                                            <img src="img/fan.png" class="img-fluid" alt="image">
+
+                                        </div>
+                                        <div class="boking_txt">
+                                            <span class="bkng_id">
+                                                Booking Id : 15467723277
+                                            </span>
+                                            <span class="bkng_prc">
+                                                Rs 498
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="booking_cntr">
+                                        <span class="bkng_tym">
+                                            <img src="img/clock-2.svg" class="img-fluid" alt="image">10:00 Am
+                                        </span>
+                                        <span class="bkng_date">
+                                            <img src="img/calendar-3.svg" class="img-fluid" alt="image">24 April 2020
+
+                                        </span>
+                                    </div>
+                                    <div class="booking_status rebook">
+                                        <a href="bookingReschudle.html" class="reshudBtn"><span class="bkng_sts reschued">
+                                                Reschedule
+                                            </span></a>
+
+
+                                    </div>
+                                </div>
+                                <div class="booking_box">
+                                    <div class="booking_lft">
+                                        <div class="booking_img">
+                                            <img src="img/fan.png" class="img-fluid" alt="image">
+
+                                        </div>
+                                        <div class="boking_txt">
+                                            <span class="bkng_id">
+                                                Booking Id : 15467723277
+                                            </span>
+                                            <span class="bkng_prc">
+                                                Rs 498
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="booking_cntr">
+                                        <span class="bkng_tym">
+                                            <img src="img/clock-2.svg" class="img-fluid" alt="image">10:00 Am
+                                        </span>
+                                        <span class="bkng_date">
+                                            <img src="img/calendar-3.svg" class="img-fluid" alt="image">24 April 2020
+
+                                        </span>
+                                    </div>
+                                    <div class="booking_status rebook">
+                                        <a href="bookingReschudle.html" class="reshudBtn"><span class="bkng_sts reschued">
+                                                Reschedule
+                                            </span></a>
+
+                                    </div>
+                                </div>
+                                <div class="booking_box">
+                                    <div class="booking_lft">
+                                        <div class="booking_img">
+                                            <img src="img/fan.png" class="img-fluid" alt="image">
+
+                                        </div>
+                                        <div class="boking_txt">
+                                            <span class="bkng_id">
+                                                Booking Id : 15467723277
+                                            </span>
+                                            <span class="bkng_prc">
+                                                Rs 498
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="booking_cntr">
+                                        <span class="bkng_tym">
+                                            <img src="img/clock-2.svg" class="img-fluid" alt="image">10:00 Am
+                                        </span>
+                                        <span class="bkng_date">
+                                            <img src="img/calendar-3.svg" class="img-fluid" alt="image">24 April 2020
+
+                                        </span>
+                                    </div>
+                                    <div class="booking_status rebook">
+                                        <a href="bookingReschudle.html" class="reshudBtn"><span class="bkng_sts reschued">
+                                                Reschedule
+                                            </span></a>
+                                    </div>
+                                </div>
+                                <div class="booking_box">
+                                    <div class="booking_lft">
+                                        <div class="booking_img">
+                                            <img src="img/fan.png" class="img-fluid" alt="image">
+
+                                        </div>
+                                        <div class="boking_txt">
+                                            <span class="bkng_id">
+                                                Booking Id : 15467723277
+                                            </span>
+                                            <span class="bkng_prc">
+                                                Rs 498
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="booking_cntr">
+                                        <span class="bkng_tym">
+                                            <img src="img/clock-2.svg" class="img-fluid" alt="image">10:00 Am
+                                        </span>
+                                        <span class="bkng_date">
+                                            <img src="img/calendar-3.svg" class="img-fluid" alt="image">24 April 2020
+
+                                        </span>
+                                    </div>
+                                    <div class="booking_status rebook">
+                                        <a href="bookingReschudle.html" class="reshudBtn"><span class="bkng_sts reschued">
+                                                Reschedule
+                                            </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer Start -->
+
+    <div class="footer boxs footerAll4">
+        <div class="container">
+            <div class="footerInner boxs">
+                <div class="footerLogo boxs">
+                    <p>On Demand</p>
+                </div>
+                <div class="footerBtm boxs">
+                    <div class="footerSocial">
+                        <ul>
+                            <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footerMenu">
+                        <ul>
+                            <li><a href="services.html">About Us</a></li>
+                            <li><a href="terms.html">Terms & Conditions</a></li>
+                             <li><a href="faq.html">FAQ’s</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer End -->
+
+
+    <!-- Start of Popup Modal of profile -->
+    <div class="modal profileInner fade" id="profileModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close closeAll" data-dismiss="modal"><img src="img/cross.svg" alt="Close_Button" class="img-fluid"></button>
+                <form>
+                    <div class="modal-body">
+                        <div class="profileHead boxs">
+                            <h3 class="headingSize">Profile</h3>
+                        </div>
+                        <div class="profileAll boxs">
+
+                            <div class="profileLeft">
+                                <div class="avatar-upload">
+                                    <div class="avatar-edit">
+                                        <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                        <label for="imageUpload" class="profLab">Change Profile<br>
+                                            Photo</label>
+                                    </div>
+                                    <div class="avatar-preview">
+                                        <div id="imagePreview" style="background-image: url(./img/homebanner.png);">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profileRight">
+                                <div class="form-group">
+                                    <label class="labelForm">Name</label>
+                                    <input type="text" class="form-control inputForm" placeholder="name">
+                                </div>
+                                <div class="form-group">
+                                    <label class="labelForm">Email ID</label>
+                                    <input type="email" class="form-control inputForm" placeholder="mail">
+                                </div>
+                                <div class="form-group">
+                                    <label class="labelForm">Phone Number</label>
+                                    <input type="email" class="form-control inputForm" placeholder="number">
+                                </div>
+
+                                <div class="profileBtn">
+                                    <div class="cancelBtn">
+                                        <button type="button" class="formBtn">Cancel</button>
+                                    </div>
+                                    <div class="saveBtn">
+                                        <button type="button" class="formBtn firstOn">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End of Popup Modal of profile-->
+
+    <!-- Start of Popup Modal of change Password-->
+    <div class="modal  otpPassword fade" id="changeModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close closeAll" data-dismiss="modal"><img src="img/cross.svg" alt="Close_Button" class="img-fluid"></button>
+                <form>
+                    <div class="modal-body boxs">
+                        <div class="profileHead profileHead2 boxs">
+                            <h3 class="headingSize">Change Password</h3>
+                        </div>
+                        <div class="otpInner">
+                            <div class="otpInput otpInputchan boxs">
+                                <div class="form-group">
+                                    <label class="labelForm">Current Password</label>
+                                    <input type="password" class="form-control inputForm" placeholder="Current Password">
+                                </div>
+                                <div class="form-group">
+                                    <label class="labelForm">New Password</label>
+                                    <input type="password" class="form-control inputForm" placeholder="New Password">
+                                </div>
+                                <div class="form-group">
+                                    <label class="labelForm">Confirm new Password</label>
+                                    <input type="password" class="form-control inputForm" placeholder="Confirm New Password">
+                                </div>
+                                <div class="otpBtn">
+                                    <button type="button" class="formBtn">UPDATE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End of Popup Modal of change passowrd-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/intlTelInput.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <script src='https://1cf5229636340d3e1dd5-0eccc4d82b7628eccb93a74a572fd3ee.ssl.cf1.rackcdn.com/testing/intlTelInput.min.js'></script>
+    <script src='https://1cf5229636340d3e1dd5-0eccc4d82b7628eccb93a74a572fd3ee.ssl.cf1.rackcdn.com/testing/jquery.formatter.min.js'></script>
+    <script src="js/countryscript.js?v=1.1.1"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
